@@ -13,5 +13,43 @@ box-sizing: border-box;
 --third: rgba(10, 1, 1, 1);     
 }
 header{
-    display:flex;
+    background-color: var(--secundary);
+    width: 100%;
+    display: flex;
 }
+header picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header picture img {
+    
+}
+header nav {
+    position: absolute;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    margin: 0 1.5rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:rgba(10, 1, 1, 1)
+    
+}
+main {
+    background-color: rgba(7, 70, 97, 1);    
+} 
+main img{
+   width: 80%; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
