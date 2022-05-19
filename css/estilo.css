@@ -50,4 +50,12 @@ main img{
    align-items: center;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+
 
